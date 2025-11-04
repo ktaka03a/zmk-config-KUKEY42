@@ -60,10 +60,10 @@
 
         default_layer {
             bindings = <
-&kp Q   &kp W         &kp E         &kp R  &kp T                                     &kp Y  &kp U  &kp I      &kp O      &kp BACKSPACE
-&kp A   &kp S         &kp D         &kp F  &kp G      &kp LCTRL           &kp ENTER  &kp H  &kp J  &kp K      &kp L      &kp P
-&kp Z   &kp X         &kp C         &kp V  &kp B      &kp TAB             &kp DEL    &kp N  &kp M  &mkp LCLK  &mkp MCLK  &mkp RCLK
-&tog 3  &kp LEFT_ALT  &kp LEFT_WIN  &mo 2  &kp SPACE  &kp LEFT_SHIFT      &mo 2      &mo 1                               &kp RCTRL
+&kp Q      &kp W    &kp E         &kp R  &kp T                                     &kp Y  &kp U  &kp I      &kp O      &kp BACKSPACE
+&kp A      &kp S    &kp D         &kp F  &kp G      &tog 3              &kp ENTER  &kp H  &kp J  &kp K      &kp L      &kp P
+&kp Z      &kp X    &kp C         &kp V  &kp B      &kp LEFT_ALT        &kp DEL    &kp N  &kp M  &mkp LCLK  &mkp MCLK  &mkp RCLK
+&kp LCTRL  &kp TAB  &kp LEFT_WIN  &mo 2  &kp SPACE  &kp LEFT_SHIFT      &mo 2      &mo 1                               &kp RCTRL
             >;
 
             sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
@@ -71,10 +71,10 @@
 
         Fn1 {
             bindings = <
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON     &kp SEMICOLON  &kp BACKSLASH                       &kp AT_SIGN   &kp PAGE_UP   &kp UP_ARROW  &kp PAGE_DOWN  &kp BACKSPACE
-&kp MINUS         &kp SLASH          &kp COMMA     &kp PERIOD     &kp UNDERSCORE  &trans      &trans  &kp TILDE     &kp LEFT      &kp DOWN      &kp RIGHT      &kp ENTER
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5    &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
-&trans            &trans             &trans        &trans         &trans          &trans      &trans  &trans                                                   &kp ESCAPE
+&kp RIGHT_BRACKET  &kp BACKSLASH  &kp APOSTROPHE  &kp SEMICOLON  &kp BACKSLASH                             &kp LEFT_BRACKET  &kp PAGE_UP   &kp UP_ARROW  &kp PAGE_DOWN  &kp BACKSPACE
+&kp MINUS          &kp SLASH      &kp COMMA       &kp PERIOD     &kp NON_US_BACKSLASH  &trans      &trans  &kp PLUS          &kp LEFT      &kp DOWN      &kp RIGHT      &kp ENTER
+&kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4   &kp NUMBER_5          &trans      &trans  &kp NUMBER_6      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
+&trans             &trans         &trans          &trans         &trans                &trans      &trans  &trans                                                       &kp ESCAPE
             >;
 
             sensor-bindings = <&WheelScroll SCRL_LEFT SCRL_RIGHT>;
