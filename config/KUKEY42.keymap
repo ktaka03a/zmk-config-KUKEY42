@@ -86,7 +86,7 @@
         Fn1 {
             bindings = <
 &kp INT_YEN         &kp LS(INT_RO)  &kp LS(N8)    &kp LS(N9)    &kp SINGLE_QUOTE                          &kp LEFT_BRACKET  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE    &trans
-&kp MINUS           &kp SLASH       &kp COMMA     &kp PERIOD    &kp SEMICOLON     &trans      &parameter  &kp PLUS          &kp LEFT       &kp DOWN      &kp RIGHT     &kp ESCAPE
+&kp MINUS           &kp SLASH       &kp COMMA     &kp PERIOD    &kp SEMICOLON     &trans      &parameter  &kp EQUAL         &kp LEFT       &kp DOWN      &kp RIGHT     &kp ESCAPE
 &mt LCTRL NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &kp LG(R)   &kp NUMBER_6      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans              &trans          &trans        &trans        &trans            &trans      &trans      &trans                                                       &kp ESCAPE
             >;
@@ -96,10 +96,10 @@
 
         Fn2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &trans     &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &kp ESCAPE
-&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans  &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F2
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans  &kp GRAVE  &kp F7          &kp LG(R)       &trans           &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                      &kp LA(LC(DELETE))
+&trans  &trans  &trans  &trans  &trans                       &trans  &kp PAGE_UP      &msc SCRL_UP    &kp PAGE_DOWN   &kp F2
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans  &trans  &msc MOVE_Y(-5)  &msc SCRL_DOWN  &msc MOVE_Y(5)  &kp ESCAPE
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans  &kp F7  &kp GRAVE        &kp LG(R)       &trans          &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                   &kp LA(LC(DELETE))
             >;
         };
 
@@ -108,7 +108,7 @@
 &trans     &trans     &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(N7)                                  &bt BT_SEL 0  &kp LC(LS(TAB))  &kp LC(TAB)    &trans      &trans
 &kp MINUS  &kp SLASH  &kp LS(N7)         &kp LS(NUMBER_2)  &kp LS(NUMBER_2)  &trans      &trans        &bt BT_SEL 1  &kp LA(LEFT)     &kp LA(RIGHT)  &kp DELETE  &trans
 &trans     &trans     &trans             &trans            &trans            &trans      &bt BT_SEL 3  &bt BT_SEL 2  &kp LC(W)        &mkp MCLK      &mkp RCLK   &trans
-&trans     &trans     &trans             &trans            &trans            &trans      &kp GRAVE     &kp F7                                                    &trans
+&trans     &trans     &trans             &trans            &trans            &trans      &trans        &trans                                                    &trans
             >;
         };
     };
