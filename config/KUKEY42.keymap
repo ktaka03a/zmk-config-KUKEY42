@@ -85,10 +85,10 @@
 
         Fn1 {
             bindings = <
-&kp INT_YEN         &kp LS(INT_RO)  &kp LS(N8)    &kp LS(N9)    &kp SINGLE_QUOTE                          &kp LEFT_BRACKET  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE    &trans
-&kp MINUS           &kp SLASH       &kp COMMA     &kp PERIOD    &kp SEMICOLON     &trans      &parameter  &kp EQUAL         &kp LEFT       &kp DOWN      &kp RIGHT     &kp ESCAPE
-&mt LCTRL NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &kp LG(R)   &kp NUMBER_6      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans              &trans          &trans        &trans        &trans            &trans      &trans      &trans                                                       &kp ESCAPE
+&kp LS(INT_YEN)     &kp LS(NUMBER_2)  &kp LS(N8)    &kp LS(N9)    &kp SEMI                                  &kp LEFT_BRACKET  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE    &trans
+&kp MINUS           &kp SLASH         &kp COMMA     &kp PERIOD    &kp SINGLE_QUOTE  &trans      &parameter  &kp EQUAL         &kp LEFT       &kp DOWN      &kp RIGHT     &kp ESCAPE
+&mt LCTRL NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &kp LG(R)   &kp NUMBER_6      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans              &trans            &trans        &trans        &trans            &trans      &trans      &trans                                                       &kp ESCAPE
             >;
 
             sensor-bindings = <&WheelScroll SCRL_LEFT SCRL_RIGHT>;
@@ -105,10 +105,10 @@
 
         MOUSE {
             bindings = <
-&trans     &trans     &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(N7)                                  &bt BT_SEL 0  &kp LC(LS(TAB))  &kp LC(TAB)    &trans      &trans
-&kp MINUS  &kp SLASH  &kp LS(N7)         &kp LS(NUMBER_2)  &kp LS(NUMBER_2)  &trans      &trans        &bt BT_SEL 1  &kp LA(LEFT)     &kp LA(RIGHT)  &kp DELETE  &trans
-&trans     &trans     &trans             &trans            &trans            &trans      &bt BT_SEL 3  &bt BT_SEL 2  &kp LC(W)        &mkp MCLK      &mkp RCLK   &trans
-&trans     &trans     &trans             &trans            &trans            &trans      &trans        &trans                                                    &trans
+&trans     &trans     &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INTERNATIONAL_3                                &bt BT_SEL 0  &kp LC(LS(TAB))  &kp LC(TAB)    &trans      &trans
+&kp MINUS  &kp SLASH  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp LS(INTERNATIONAL_1)  &trans      &trans        &bt BT_SEL 1  &kp LA(LEFT)     &kp LA(RIGHT)  &kp DELETE  &trans
+&trans     &trans     &trans                 &trans             &trans                   &trans      &bt BT_SEL 3  &bt BT_SEL 2  &kp LC(W)        &mkp MCLK      &mkp RCLK   &trans
+&trans     &trans     &trans                 &trans             &trans                   &trans      &trans        &trans                                                    &trans
             >;
         };
     };
