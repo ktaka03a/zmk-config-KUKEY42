@@ -96,9 +96,9 @@
 
         Fn2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &trans  &kp PAGE_UP      &msc SCRL_UP    &kp PAGE_DOWN   &kp F2
-&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans  &trans  &msc MOVE_Y(-5)  &msc SCRL_DOWN  &msc MOVE_Y(5)  &kp ESCAPE
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans  &kp F7  &kp GRAVE        &kp LG(R)       &trans          &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &kp F2
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp ESCAPE
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans  &trans  &kp GRAVE       &kp F7          &trans           &trans
 &trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                   &kp LA(LC(DELETE))
             >;
         };
