@@ -85,7 +85,7 @@
 
         Fn1 {
             bindings = <
-&kp LS(INT_YEN)     &kp LS(NUMBER_2)  &kp LS(N8)    &kp LS(N9)    &kp SEMI                                  &kp LEFT_BRACKET  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE    &trans
+&kp INT_YEN         &kp LS(NUMBER_2)  &kp LS(N8)    &kp LS(N9)    &kp SEMI                                  &kp LEFT_BRACKET  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE    &trans
 &kp MINUS           &kp SLASH         &kp COMMA     &kp PERIOD    &kp SINGLE_QUOTE  &trans      &parameter  &kp EQUAL         &kp LEFT       &kp DOWN      &kp RIGHT     &kp ESCAPE
 &mt LCTRL NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &trans      &kp LG(R)   &kp NUMBER_6      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans              &trans            &trans        &trans        &trans            &trans      &trans      &trans                                                       &kp ESCAPE
@@ -96,9 +96,9 @@
 
         Fn2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &trans  &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &kp F2
+&trans  &trans  &trans  &trans  &trans                       &trans  &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &trans
 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp ESCAPE
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans  &trans  &kp GRAVE       &kp F7          &trans           &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans  &trans  &kp GRAVE       &kp F7          &kp LG(R)        &trans
 &trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                   &kp LA(LC(DELETE))
             >;
         };
